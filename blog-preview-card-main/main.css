@@ -1,0 +1,55 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+#blog-card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    background-color: hsl(0, 0%, 100%);
+    border-style: solid;
+    border-width: 10px;
+   border-top: solid hsl(0, 0%, 7%);
+   border-left: solid hsl(0, 0%, 7%);
+   margin: auto;
+   padding:10px;
+   border-radius: 10px;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+#Learn{
+    font-weight: bold;
+    display: inline-block;
+    width:65px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    height: 40px;
+}
+#blog-card p{
+    flex-basis: 0px;
+    font-size: 16px;
+}
+#Learn h1 a:hovered{
+    color: hsl(47, 88%, 63%);
+    
+}
+#Learn > h1 > a{
+text-decoration: none;
+}
+#user{
+    display:grid;
+    grid-template-columns: 50px 150px;
+    gap:0px 20px;
+}
+#user p{
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media (min-width:1440px){
+    body{
+        width:1000px;
+        height: 700px;
+    }
+}
